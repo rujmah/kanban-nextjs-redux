@@ -4,8 +4,8 @@ import "./globals.css";
 import AppProvider from "./providers";
 
 export const metadata: Metadata = {
-  title: "Kanbanium",
-  description: "AI supported Kanban board",
+  title: "Kanban Board",
+  description: "Kanban board",
 };
 
 export default function RootLayout({
