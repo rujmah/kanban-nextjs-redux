@@ -1,2 +1,1 @@
-# kanbanium
-Kanban board with AI assistant
+# Kanban with RTK Demo

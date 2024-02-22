@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-container {
+  @apply mx-auto max-w-full p-2 md:p-10 bg-sky-950;
+}
+
+.basic-box {
+  @apply bg-sky-50 shadow-xl rounded-md p-4 w-full mt-2;
+}
+
+.column-box {
+  @apply flex bg-sky-800 mt-2 p-2 rounded-md;
+}
+
+.column {
+  @apply flex-col w-1/2 m-1 p-1 rounded-md bg-sky-200;
+}
+
+.column-header {
+  @apply text-2xl font-bold text-gray-800;
+}
+
+.card {
+  @apply bg-white shadow-xl rounded-md p-4 w-full mt-2 cursor-pointer;
+}
+
+.btn {
+  @apply bg-sky-500 text-white font-bold py-2 px-4 rounded flex-shrink-0 hover:bg-sky-700 text-sm hover:border-sky-300;
+}
+
+.text-input {
+  @apply border border-gray-300 rounded py-2 px-4;
+}
+
+.pill-user {
+  @apply mt-1 bg-sky-100 text-sky-500 font-bold py-2 px-4 rounded-full text-xs;
+}
+
+.prompt-user {
+  @apply text-left px-2;
+}
+
+.pill-bot {
+  @apply text-right bg-gray-100 text-gray-500 font-bold py-2 px-4 rounded-full text-xs;
+}
+
+.response-bot {
+  @apply text-right px-2;
+}
+
+.select-box {
+  /* @apply border border-gray-300 rounded py-2 px-4; */
+  @apply block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500;
+}
