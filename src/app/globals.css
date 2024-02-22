@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .page-container {
-  @apply mx-auto max-w-full p-2 md:p-10 bg-sky-950;
+  @apply mx-auto max-w-full p-2 md:p-10 bg-indigo-50 h-screen;
 }
 
 .basic-box {
@@ -11,17 +11,36 @@
 }
 
 .column-box {
-  @apply flex bg-sky-800 mt-2 p-2 rounded-md;
+  @apply flex mt-2 p-2 rounded-md;
 }
 
 .column {
-  @apply flex-col w-1/2 m-1 p-1 rounded-md bg-sky-200;
+  @apply flex-col w-1/2 m-1 p-1 rounded-md;
+}
+
+.todo-column {
+  @apply bg-indigo-200;
+}
+
+.inprogress-column {
+  @apply bg-indigo-300;
+}
+.done-column {
+  @apply bg-indigo-400;
 }
 
 .column-header {
-  @apply text-2xl font-bold text-gray-800;
+  @apply text-2xl font-bold text-gray-800 p-1;
 }
 
 .card {
-  @apply bg-white shadow-xl rounded-md p-4 w-full mt-2 cursor-pointer;
+  @apply bg-white shadow-md rounded-md p-4 w-full mt-2 cursor-pointer;
+}
+
+.btn {
+  @apply bg-sky-500 text-white font-bold py-2 px-4 rounded flex-shrink-0 hover:bg-sky-700 text-sm hover:border-sky-300;
+}
+
+.text-input {
+  @apply border border-gray-300 rounded py-2 px-4;
 }
